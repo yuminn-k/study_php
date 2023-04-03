@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "IDとパスワードを入力してください"
-AuthUserFile /Applications/MAMP/htdocs/php_test/45._ベーシック認証/.htpasswd
-require valid-user
