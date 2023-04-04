@@ -1,12 +1,25 @@
-# Created by https://www.toptal.com/developers/gitignore/api/composer
-# Edit at https://www.toptal.com/developers/gitignore?templates=composer
+# Created by https://www.gitignore.io
+
+### Vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+### Laravel ###
+/bootstrap/compiled.php
+.env.*.php
+.env.php
+.env
+
 
 ### Composer ###
 composer.phar
-/vendor/
+vendor/
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
-
-# End of https://www.toptal.com/developers/gitignore/api/composer
