@@ -1,0 +1,17 @@
+{
+  "name": "yuminkim/composertest",
+  "autoload": {
+    "psr-4": {
+      "Yuminkim\\Composertest\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "devYuMinKim",
+      "email": "gimyumin40@gmail.com"
+    }
+  ],
+  "require": {
+    "nesbot/carbon": "^2.66"
+  }
+}
