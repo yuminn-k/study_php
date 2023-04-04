@@ -20,5 +20,5 @@ echo '結合結果: '. $name1 ;
 echo '<br>';
 
 $variableLength = combine('テスト1', 'テスト2', 'テスト3');
-echo $variableLength;
+echo $variableLength;   // テスト１・テスト２・テスト３
 
